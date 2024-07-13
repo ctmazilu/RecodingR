@@ -29,6 +29,22 @@ setwd(getSrcDirectory(function(){})[1])
 file_path_cf <-"country_list.xlsx"
 
 country_ref <- read_excel(file_path_cf)
+country_ref$CharacterCode <- ""
+
+# Using the Open Street Map packages, run a loop through each counrty in country_ref
+for (i in 1:4+0*nrow(country_ref)) {
+  cr <- country_ref$Country[i]
+  # find the location of the response
+  gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
+  # compare location of the response
+  rloc <- tmaptools::rev_geocode_OSM(gloc)
+  # turn the response to upper case
+  c_code <- (toupper(rloc[[1]]$country_code))
+  print (c(cr, c_code))
+  country_ref$CharacterCode[i] <- c_code
+}
+
+
 
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
 
@@ -74,27 +90,6 @@ for (cn in 1:20+0*nrow(CSVS)) {
   }
 }
 
-
-# Initialize the data frame which has a new row for the character code
-# country_ref <- data.frame(
-#   Country = country,
-#   IntegerCode = i_code,
-#   CharacterCode = c_code
-# )
-
-
-# Using the Open Street Map packages, run a loop through each counrty in country_ref
-for (i in 1:4+0*nrow(country_ref)) {
-  cr <- country_ref$Country[i]
-  # find the location of the response
-  gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
-  # compare location of the response
-  rloc <- tmaptools::rev_geocode_OSM(gloc)
-  # turn the response to upper case
-  c_code <- (toupper(rloc[[1]]$country_code))
-  print (c(cr, c_code))
-  country_ref$CharacterCode <- c_code[i]
-}
 
 # check to make sure that worked
 
