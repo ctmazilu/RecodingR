@@ -10,13 +10,24 @@ if (!requireNamespace("tmap", quietly = TRUE)) {
 if (!requireNamespace("tmaptools", quietly = TRUE)) {
   install.packages("tmaptools")
 }
+if (!requireNamespace("readxl", quietly = TRUE)) {
+  install.packages("readxl")
+}
+if (!requireNamespace("stringr", quietly = TRUE)) {
+  install.packages("stringr")
+}
 
 # Load the necessary libraries
 library("tmap")
 library("tmaptools")
+library("readxl")
+library(stringr)
+
+setwd(getSrcDirectory(function(){})[1])
+
 # Define the path to the Excel file
-file_path_cf <- "/Users/christina/NCF_CSVS/country_list.xlsx"
-# Read the Excel file into a data frame
+file_path_cf <-"country_list.xlsx"
+
 country_ref <- read_excel(file_path_cf)
 
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
