@@ -25,7 +25,7 @@ library(writexl)
 
 # change working directory to script directory 
 setwd(getSrcDirectory(function(){})[1])
-
+   
 # Define the path to the Excel file
 ##file_path_cf <-"country_list.xlsx"
 ##country_ref <- read_excel(file_path_cf)
@@ -50,6 +50,7 @@ for (i in 1:nrow(country_ref)) {
     country_ref$CharacterCode[i] <- c_code
     country_ref$tmapCountry[i] <- tmap_country
     write.csv(country_ref, "country_list3.csv", row.names = FALSE )
+    Sys.sleep(2)  
   }
 }
 
