@@ -1,19 +1,19 @@
 "Country","Count.Var1","Count.Freq","CharacterCode","Code"
 "AASIASSA","Aasiassa",1,"XX",-1
 "AFGHANISTAN","Afghanistan",1,"AF",1
-"AFRICA","Africa",2,"TD",34
-"ALBANIA","Albania",3,"CO",2
+"AFRICA","Africa",2,"XX",-1
+"ALBANIA","Albania",3,"AL",2
 "ALGERIE","Algerie",1,"DZ",3
-"AMERICA","america",1,"US",64
+"AMERICA","america",1,"US", 187
 "ANGOLA","Angola",1,"AO",5
 "ARGENTINA","argentina",2,"AR",7
 "ARGENTINA","Argentina",2,"AR",7
 "ARGENTINE","Argentine",1,"AR",7
-"ASIA","Asia",1,"RU",143
+"ASIA","Asia",1,"XX",-1
 "AUSTRALIA","Australia",1,"AU",9
 "AUSTRIA","Austria",1,"AT",10
 "AZERBAYJAN","Azerbayjan",1,"AZ",11
-"BANGLADESH","Bangladesh",7,"KE",14
+"BANGLADESH","Bangladesh",7,"BD",14
 "BELARUS","Belarus",1,"BY",16
 "BELGICA","Bélgica",1,"BE",17
 "BELGIUM","Belgium",2,"BE",17
@@ -30,15 +30,15 @@
 "CAMBODIA","cambodia",1,"KH",30
 "CAMEROUN","Cameroun",1,"CM",31
 "CANADA","Canada",4,"CA",32
-"CARRIBEAN","carribean",1,"IN",78
+"CARRIBEAN","carribean",1,"XX",-1
 "CHILE","chile",2,"CL",35
 "CHILE","Chile",5,"CL",35
 "CHINA","china",3,"CN",36
 "CHINA","China",22,"CN",36
-"CIOACIA","Cioacia",1,"XX",-1
-"COLOMBIA","colombia",1,"CO",2
-"COLOMBIA","Colombia",3,"CO",2
-"COLOMBIAN","Colombian",1,"AU",9
+"CIOACIA","Cioacia",1,"HR",42
+"COLOMBIA","colombia",1,"CO",37
+"COLOMBIA","Colombia",3,"CO",37
+"COLOMBIAN","Colombian",1,"CO", 37
 "CONGO KINSHASA","Congo Kinshasa",1,"CD",39
 "COSTA RICA","Costa Rica",1,"CR",40
 "CROATIA","croatia",1,"HR",42
@@ -47,7 +47,7 @@
 "CYPRUS","Cyprus",4,"CY",44
 "CZECH REPUBLIC","czech republic",1,"CZ",45
 "CZECH REPUBLIC","Czech Republic",1,"CZ",45
-"CZECHOSLOVAK SOCIALIST REPUBLIC","czechoslovak socialist republic",1,"XX",-1
+"CZECHOSLOVAK SOCIALIST REPUBLIC","czechoslovak socialist republic",1,"CZ",45
 "DANMARK","Danmark",2,"DK",46
 "DENMARK","Denmark",2,"DK",46
 "DOMINICAN REPUBLIC","Dominican Republic",1,"DO",49
@@ -57,16 +57,16 @@
 "ENGLAND","england",4,"GB",186
 "ENGLAND","England",26,"GB",186
 "ENGLAND","ENGLAND",1,"GB",186
-"ESPANA","españa",1,"ES",6
-"ESPANA","España",2,"ES",6
-"ESTADOS UNIDOS","Estados Unidos",1,"US",64
+"ESPANA","españa",1,"ES",163
+"ESPANA","España",2,"ES",163
+"ESTADOS UNIDOS","Estados Unidos",1,"US",187
 "ETIOPIA","Etiopia",1,"ET",58
-"EUROPE","europe",1,"DE",65
-"EUROPE","Europe",1,"DE",65
+"EUROPE","europe",1,"XX",-1
+"EUROPE","Europe",1,"XX",-1
 "EX JUGOSLAVIA","Ex jugoslavia",1,"XX",-1
 "FIJI","Fiji",2,"FJ",59
-"FILIPINENE","filipinene",1,"XX",-1
-"FILIPINENE","Filipinene",1,"XX",-1
+"FILIPINENE","filipinene",1,"PH",138
+"FILIPINENE","Filipinene",1,"PH",138
 "FILIPPINENE","Filippinene",3,"PH",138
 "FINLAND","Finland",4,"FI",60
 "FORETREKKER IKKE A SVARE","foretrekker ikke å svare",1,"XX",-1
@@ -77,14 +77,14 @@
 "FRANKRIKE","Frankrike",1,"FR",61
 "GERMANY","germany",1,"DE",65
 "GERMANY","Germany",9,"DE",65
-"GERMANY (MILITARY)","Germany (military)",1,"XX",-1
-"GERMANY (PARENT ACTIVE DUTY MILITARY)","Germany (parent active duty military)",1,"XX",-1
+"GERMANY (MILITARY)","Germany (military)",1,"DE",65
+"GERMANY (PARENT ACTIVE DUTY MILITARY)","Germany (parent active duty military)",1,"DE",65
 "GHANA","ghana",1,"GH",66
 "GHANA","Ghana",5,"GH",66
 "GUATEMALA","Guatemala",4,"GT",69
 "GUYANA","Guyana",1,"GY",72
 "HAITI","Haiti",2,"HT",73
-"HELLAS","Hellas",1,"GR",-1
+"HELLAS","Hellas",1,"GR",67
 "HK","hk",1,"CN",36
 "HONG KONG","hong kong",3,"CN",36
 "HONG KONG","Hong Kong",21,"CN",36
@@ -94,7 +94,7 @@
 "INDIA","india",5,"IN",78
 "INDIA","India",58,"IN",78
 "INDIA","INDIA",1,"IN",78
-"INDIAN","Indian",1,"US",64
+"INDIAN","Indian",1,"IN",78
 "INDONESIA","Indonesia",3,"ID",79
 "IRAN","Iran",5,"IR",80
 "IRAQ","Iraq",4,"IQ",81
@@ -108,21 +108,21 @@
 "JAMAICA","Jamaica",1,"JM",85
 "JAPAN","japan",1,"JP",86
 "JAPAN","Japan",5,"JP",86
-"JORDAN","Jordan",1,"US",64
+"JORDAN","Jordan",1,"JO",87
 "KAZAKHSTAN","Kazakhstan",1,"KZ",88
-"KENYA","Kenya",2,"KE",14
+"KENYA","Kenya",2,"KE",89
 "KIINA","Kiina",1,"CN",36
 "KINA","Kina",1,"CN",36
 "KOREA","korea",1,"KR",161
 "KOREA","Korea",5,"KR",161
 "KOSOVO","Kosovo",1,"XK",-1
-"KSA","KSA",1,"CA",32
+"KSA","KSA",1,"SA",150
 "LATVIA","Latvia",7,"LV",94
-"LEBANON","Lebanon",1,"US",64
-"LIBAN","Liban",1,"LB",-1
+"LEBANON","Lebanon",1,"LB",95
+"LIBAN","Liban",1,"LB",95
 "LITAUEN","Litauen",2,"LT",100
 "LITHUANIA","Lithuania",2,"LT",100
-"MACEDONIA","Macedonia",1,"US",64
+"MACEDONIA","Macedonia",1,"MK",129
 "MALAYSIA","malaysia",1,"MY",104
 "MALAYSIA","Malaysia",5,"MY",104
 "MALAYSIA","MALAYSIA",1,"MY",104
@@ -136,7 +136,7 @@
 "NEPAL","nepal",1,"NP",122
 "NEPAL","Nepal",10,"NP",122
 "NETHERLANDS","Netherlands",5,"NL",123
-"NEUVOSTOLIITTO","Neuvostoliitto",1,"XX",-1
+"NEUVOSTOLIITTO","Neuvostoliitto",1,"RU",143
 "NEW ZEALAND","new zealand",2,"NZ",124
 "NEW ZEALAND","New zealand",3,"NZ",124
 "NEW ZEALAND","New Zealand",16,"NZ",124
@@ -144,8 +144,8 @@
 "NIGERIA","Nigeria",16,"NG",127
 "PAKISTAN","pakistan",2,"PK",132
 "PAKISTAN","Pakistan",22,"PK",132
-"PAKOSTAN","Pakostan",1,"XX",-1
-"PALESTINE","Palestine",1,"US",64
+"PAKOSTAN","Pakostan",1,"PK",132
+"PALESTINE","Palestine",1,"XX",-1
 "PAPUA NEW GUINEA","Papua New Guinea",1,"PG",135
 "PARAGUAY","paraguay",1,"PY",136
 "PARAGUAY","Paraguay",5,"PY",136
@@ -172,8 +172,8 @@
 "ROUMANIE","Roumanie",1,"RO",142
 "ROYAUME-UNI","Royaume-Uni",1,"GB",186
 "RUOTSI","Ruotsi",8,"SE",169
-"RUOTSISSA","ruotsissa",1,"XX",-1
-"RUOTSISSA","Ruotsissa",3,"XX",-1
+"RUOTSISSA","ruotsissa",1,"SE",169
+"RUOTSISSA","Ruotsissa",3,"SE", 169
 "RUSSIA","Russia",9,"RU",143
 "RUSSLAND","Russland",8,"RU",143
 "SAUDI ARABIA","Saudi Arabia",1,"SA",150
@@ -198,13 +198,13 @@
 "SOUTH AFRICA","South Africa",9,"ZA",160
 "SOUTH KOREA","South korea",1,"KR",161
 "SOUTH KOREA","South Korea",1,"KR",161
-"SPANIA","Spania",1,"ES",6
+"SPANIA","Spania",1,"ES",163
 "SRI LANKA","Sri Lanka",5,"LK",164
-"SRI LNAKA","Sri lnaka",1,"XX",-1
+"SRI LNAKA","Sri lnaka",1,"LK",164
 "SRILANKA","Srilanka",1,"LK",164
 "SRILANKA","SriLanka",1,"LK",164
 "STORBRITANNIA","Storbritannia",1,"GB",186
-"STORBRITTANIA","Storbrittania",1,"XX",-1
+"STORBRITTANIA","Storbrittania",1,"GB",186
 "SUOMI","suomi",1,"FI",60
 "SVERIGE","sverige",1,"SE",169
 "SVERIGE","Sverige",6,"SE",169
@@ -217,7 +217,7 @@
 "TAIWAN","Taiwan",2,"TW",-1
 "TANZANIA","tanzania",1,"TZ",173
 "TANZANIA","Tanzania",5,"TZ",173
-"THAILAND","Thailand",2,"PH",138
+"THAILAND","Thailand",2,"TH",174
 "THE NETHERLANDS","The Netherlands",1,"NL",123
 "THE PHILIPPINES","The Philippines",2,"PH",138
 "TRINIDAD AND TOBAGO","Trinidad and Tobago",1,"TT",178
@@ -228,40 +228,40 @@
 "UAE","uae",1,"AE",185
 "UAE","UAE",1,"AE",185
 "UGANDA","Uganda",3,"UG",183
-"UK","uk",2,"CF",33
-"UK","Uk",3,"CF",33
-"UK","UK",2,"CF",33
+"UK","uk",2,"GB",186
+"UK","Uk",3,"GB",186
+"UK","UK",2,"GB",186
 "UKRAIN","Ukrain",1,"UA",184
-"UKRAINA","Ukraina",1,"PL",139
-"UKRAINASSA","Ukrainassa",1,"XX",-1
+"UKRAINA","Ukraina",1,"UA",184
+"UKRAINASSA","Ukrainassa",1,"UA",184
 "UKRAINE","Ukraine",8,"UA",184
 "UNITED ARAB EMIRATES","United arab emirates",1,"AE",185
 "UNITED KINGDOM","United Kingdom",11,"GB",186
-"UNITED STATES","United States",1,"US",64
-"UNITED STATES","UNITED STATES",1,"US",64
-"UNITED STATES OF AMERICA","United States of America",1,"US",64
+"UNITED STATES","United States",1,"US",187
+"UNITED STATES","UNITED STATES",1,"US",187
+"UNITED STATES OF AMERICA","United States of America",1,"US",187
 "URUGUAY","Uruguay",3,"UY",188
-"USA","usa",1,"US",64
-"USA","Usa",1,"US",64
-"USA","USA",11,"US",64
-"USSR","ussr",1,"CN",36
-"USSR","USSR",1,"CN",36
+"USA","usa",1,"US",187
+"USA","Usa",1,"US",187
+"USA","USA",11,"US",187
+"USSR","ussr",1,"RU",143
+"USSR","USSR",1,"RU",143
 "UZBEKISTAN","Uzbekistan",1,"UZ",189
 "VENAJA","venäjä",1,"RU",143
 "VENAJA","Venäjä",3,"RU",143
-"VENAJA (INKERINMAA)","Venäjä (Inkerinmaa)",1,"XX",-1
-"VENAJAN KARJALASSA","Venäjän Karjalassa",1,"XX",-1
+"VENAJA (INKERINMAA)","Venäjä (Inkerinmaa)",1,"RU",143
+"VENAJAN KARJALASSA","Venäjän Karjalassa",1,"RU",143
 "VENEZUELA","venezuela",2,"VE",191
 "VENEZUELA","Venezuela",11,"VE",191
 "VENEZUELA","VENEZUELA",2,"VE",191
 "VIET NAM","Viet Nam",1,"VN",192
 "VIETNAM","vietnam",2,"VN",192
 "VIETNAM","Vietnam",6,"VN",192
-"VIETNANM","Vietnanm",1,"XX",-1
-"VIL IKKE","Vil ikke",1,"XX",-1
-"VIRO","Viro",4,"EE",56
+"VIETNANM","Vietnanm",1,"VN",192
+"VIL IKKE","Vil ikke",1,"NO",130
+"VIRO","Viro",4,"XX",-1
 "WALES","Wales",1,"GB",186
-"YHDYSVALLOISSA","Yhdysvalloissa",1,"XX",-1
+"YHDYSVALLOISSA","Yhdysvalloissa",1,"US",187
 "ZAMBIA","Zambia",1,"ZM",194
 "ZIMBABWE","zimbabwe",3,"ZW",195
 "ZIMBABWE","Zimbabwe",4,"ZW",195
