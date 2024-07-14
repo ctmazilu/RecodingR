@@ -1,7 +1,7 @@
 # Recodes for CSVS
 # Written by Christina Theodora Mazilu
 # Date created: 13/07/2024
-# Last edited: 13/07/2024
+# Last edited: 14/07/2024
 
 # Install Packages 
 if (!requireNamespace("tmap", quietly = TRUE)) {
@@ -21,10 +21,10 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 library("tmap")
 library("tmaptools")
 library("readxl")
-library(writexl) 
+library("writexl") 
 
 # change working directory to script directory 
-setwd(getSrcDirectory(function(){})[1])
+#setwd(getSrcDirectory(function(){})[1])
    
 # Define the path to the Excel file
 ##file_path_cf <-"country_list.xlsx"
@@ -35,7 +35,7 @@ setwd(getSrcDirectory(function(){})[1])
 file_path_cf <-"country_list3.csv"
 country_ref <- read.csv(file_path_cf)
 
-# Using the Open Street Map packages, run a loop through each counrty in country_ref
+# Using the Open Street Map packages, run a loop through each country in country_ref
 for (i in 1:nrow(country_ref)) {
   cr <- country_ref$Country[i]
   if (toString(country_ref$CharacterCode[i])=="") {
@@ -49,7 +49,7 @@ for (i in 1:nrow(country_ref)) {
     print (c(cr, c_code, tmap_country))
     country_ref$CharacterCode[i] <- c_code
     country_ref$tmapCountry[i] <- tmap_country
-    write.csv(country_ref, "country_list3.csv", row.names = FALSE )
+   # write.csv(country_ref, "country_list3.csv", row.names = FALSE )
     Sys.sleep(2)  
   }
 }
@@ -62,9 +62,10 @@ all_country_ref <- read.csv(file_path_cf)
 #all_country_ref$CharacterCode <- ""
 #all_country_ref$Code <- 0
 
-# Using the Open Street Map packages, run a loop through each counrty in country_ref
+# Using the Open Street Map packages, run a loop through each country in country_ref
 for (i in 1:nrow(all_country_ref)) {
   cr <- all_country_ref$Country[i]
+  # Only runs if the code has not been run already 
   if (all_country_ref$Code[i]=="0") {
   # find the location of the response
   gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
@@ -87,7 +88,8 @@ for (i in 1:nrow(all_country_ref)) {
     all_country_ref$Code[i] <- -1
   }
   print (c(i, cr, cc, c_code))
-  write.csv(all_country_ref, "all_country_df3.csv", row.names = FALSE )
+  # write.csv(all_country_ref, "all_country_df3.csv", row.names = FALSE )
+  # Delays the output by 2 seconds to not overburden the server. 
   Sys.sleep(2)  
   }
 }
