@@ -23,28 +23,35 @@ library("tmaptools")
 library("readxl")
 library(writexl) 
 
+# change working directory to script directory 
 setwd(getSrcDirectory(function(){})[1])
 
 # Define the path to the Excel file
-file_path_cf <-"country_list.xlsx"
+##file_path_cf <-"country_list.xlsx"
+##country_ref <- read_excel(file_path_cf)
+##country_ref$CharacterCode <- ""
+##country_ref$tmapCountry <- ""
 
-country_ref <- read_excel(file_path_cf)
-country_ref$CharacterCode <- ""
+file_path_cf <-"country_list3.csv"
+country_ref <- read.csv(file_path_cf)
 
 # Using the Open Street Map packages, run a loop through each counrty in country_ref
 for (i in 1:nrow(country_ref)) {
   cr <- country_ref$Country[i]
-  # find the location of the response
-  gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
-  # compare location of the response
-  rloc <- tmaptools::rev_geocode_OSM(gloc)
-  # turn the response to upper case
-  c_code <- (toupper(rloc[[1]]$country_code))
-  print (c(cr, c_code))
-  country_ref$CharacterCode[i] <- c_code
+  if (country_ref$CharacterCode[i]=="") {
+    # find the location of the response
+    gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
+    # compare location of the response
+    rloc <- tmaptools::rev_geocode_OSM(gloc)
+    # turn the response to upper case
+    c_code <- (toupper(rloc[[1]]$country_code))
+    tmap_country <- (toupper(rloc[[1]]$country))
+    print (c(cr, c_code, tmap_country))
+    country_ref$CharacterCode[i] <- c_code
+    country_ref$tmapCountry[i] <- tmap_country
+    write.csv(country_ref, "country_list3.csv", row.names = FALSE )
+  }
 }
-
-write.csv(country_ref, "country_list3.csv" )
 
 ##################
 # Define the path to the CSV file
@@ -81,7 +88,7 @@ for (i in 1:nrow(all_country_ref)) {
   
 }
 
-write.csv(all_country_ref, "all_country_df3.csv" )
+write.csv(all_country_ref, "all_country_df3.csv" , row.names = FALSE)
 
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
 
