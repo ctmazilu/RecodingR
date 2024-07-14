@@ -38,7 +38,7 @@ country_ref <- read.csv(file_path_cf)
 # Using the Open Street Map packages, run a loop through each counrty in country_ref
 for (i in 1:nrow(country_ref)) {
   cr <- country_ref$Country[i]
-  if (country_ref$CharacterCode[i]=="") {
+  if (toString(country_ref$CharacterCode[i])=="") {
     # find the location of the response
     gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
     # compare location of the response
@@ -65,6 +65,7 @@ all_country_ref$Code <- 0
 # Using the Open Street Map packages, run a loop through each counrty in country_ref
 for (i in 1:nrow(all_country_ref)) {
   cr <- all_country_ref$Country[i]
+  if (toString(all_country_ref$CharacterCode[i])=="") {
   # find the location of the response
   gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
   if(is.null(gloc)) {
@@ -75,7 +76,6 @@ for (i in 1:nrow(all_country_ref)) {
     # turn the response to upper case
     c_code <- (toupper(rloc[[1]]$country_code))
   }
-  print (c(cr, c_code))
   all_country_ref$CharacterCode[i] <- c_code
   cc <- (which(c_code == country_ref$CharacterCode, arr.ind = TRUE))
   # deals with NA responses 
@@ -86,10 +86,12 @@ for (i in 1:nrow(all_country_ref)) {
   } else {
     all_country_ref$Code[i] <- 0
   }
-  
+  print (c(i, cr, cc, c_code))
+  write.csv(all_country_ref, "all_country_df3.csv", row.names = FALSE )
+  Sys.sleep(2)  
+  }
 }
 
-write.csv(all_country_ref, "all_country_df3.csv" , row.names = FALSE)
 
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
 

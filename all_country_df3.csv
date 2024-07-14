@@ -1,267 +1,267 @@
-"","Country","Count.Var1","Count.Freq","CharacterCode","Code"
-"1","AASIASSA","Aasiassa",1,"XX",0
-"2","AFGHANISTAN","Afghanistan",1,"AF",1
-"3","AFRICA","Africa",2,"TD",0
-"4","ALBANIA","Albania",3,"CO",2
-"5","ALGERIE","Algerie",1,"",0
-"6","AMERICA","america",1,"",0
-"7","ANGOLA","Angola",1,"",0
-"8","ARGENTINA","argentina",2,"",0
-"9","ARGENTINA","Argentina",2,"",0
-"10","ARGENTINE","Argentine",1,"",0
-"11","ASIA","Asia",1,"",0
-"12","AUSTRALIA","Australia",1,"",0
-"13","AUSTRIA","Austria",1,"",0
-"14","AZERBAYJAN","Azerbayjan",1,"",0
-"15","BANGLADESH","Bangladesh",7,"",0
-"16","BELARUS","Belarus",1,"",0
-"17","BÉLGICA","Bélgica",1,"",0
-"18","BELGIUM","Belgium",2,"",0
-"19","BOLIVIA","Bolivia",3,"",0
-"20","BOLIVIA","BOLIVIA",1,"",0
-"21","BOSNIA","bosnia",1,"",0
-"22","BOSNIA","Bosnia",1,"",0
-"23","BOSNIA AND HERZEGOVINA","Bosnia and Herzegovina",1,"",0
-"24","BRASIL","Brasil",5,"",0
-"25","BRAZIL","Brazil",4,"",0
-"26","BRITAIN","Britain",2,"",0
-"27","BULGARIA","Bulgaria",1,"",0
-"28","CALCUTTA INDIA","Calcutta india",1,"",0
-"29","CAMBODIA","cambodia",1,"",0
-"30","CAMEROUN","Cameroun",1,"",0
-"31","CANADA","Canada",4,"",0
-"32","CARRIBEAN","carribean",1,"",0
-"33","CHILE","chile",2,"",0
-"34","CHILE","Chile",5,"",0
-"35","CHINA","china",3,"",0
-"36","CHINA","China",22,"",0
-"37","CIOACIA","Cioacia",1,"",0
-"38","COLOMBIA","colombia",1,"",0
-"39","COLOMBIA","Colombia",3,"",0
-"40","COLOMBIAN","Colombian",1,"",0
-"41","CONGO KINSHASA","Congo Kinshasa",1,"",0
-"42","COSTA RICA","Costa Rica",1,"",0
-"43","CROATIA","croatia",1,"",0
-"44","CUBA","cuba",1,"",0
-"45","CUBA","Cuba",5,"",0
-"46","CYPRUS","Cyprus",4,"",0
-"47","CZECH REPUBLIC","czech republic",1,"",0
-"48","CZECH REPUBLIC","Czech Republic",1,"",0
-"49","CZECHOSLOVAK SOCIALIST REPUBLIC","czechoslovak socialist republic",1,"",0
-"50","DANMARK","Danmark",2,"",0
-"51","DENMARK","Denmark",2,"",0
-"52","DOMINICAN REPUBLIC","Dominican Republic",1,"",0
-"53","DOMINIKANSKE REPUBLIKK","Dominikanske Republikk",1,"",0
-"54","ECUADOR","Ecuador",1,"",0
-"55","EGYPT","Egypt",7,"",0
-"56","ENGLAND","england",4,"",0
-"57","ENGLAND","England",26,"",0
-"58","ENGLAND","ENGLAND",1,"",0
-"59","ESPAÑA","españa",1,"",0
-"60","ESPAÑA","España",2,"",0
-"61","ESTADOS UNIDOS","Estados Unidos",1,"",0
-"62","ETIOPIA","Etiopia",1,"",0
-"63","EUROPE","europe",1,"",0
-"64","EUROPE","Europe",1,"",0
-"65","EX JUGOSLAVIA","Ex jugoslavia",1,"",0
-"66","FIJI","Fiji",2,"",0
-"67","FILIPINENE","filipinene",1,"",0
-"68","FILIPINENE","Filipinene",1,"",0
-"69","FILIPPINENE","Filippinene",3,"",0
-"70","FINLAND","Finland",4,"",0
-"71","FORETREKKER IKKE Å SVARE","foretrekker ikke å svare",1,"",0
-"72","FRANCE","france",1,"",0
-"73","FRANCE","France",7,"",0
-"74","FRANCE","FRANCE",1,"",0
-"75","FRANCIA","Francia",1,"",0
-"76","FRANKRIKE","Frankrike",1,"",0
-"77","GERMANY","germany",1,"",0
-"78","GERMANY","Germany",9,"",0
-"79","GERMANY (MILITARY)","Germany (military)",1,"",0
-"80","GERMANY (PARENT ACTIVE DUTY MILITARY)","Germany (parent active duty military)",1,"",0
-"81","GHANA","ghana",1,"",0
-"82","GHANA","Ghana",5,"",0
-"83","GUATEMALA","Guatemala",4,"",0
-"84","GUYANA","Guyana",1,"",0
-"85","HAITI","Haiti",2,"",0
-"86","HELLAS","Hellas",1,"",0
-"87","HK","hk",1,"",0
-"88","HONG KONG","hong kong",3,"",0
-"89","HONG KONG","Hong Kong",21,"",0
-"90","HONG KONG","HONG KONG",1,"",0
-"91","HONG KONG, CHINA","Hong Kong, China",1,"",0
-"92","HUNGARY","Hungary",1,"",0
-"93","INDIA","india",5,"",0
-"94","INDIA","India",58,"",0
-"95","INDIA","INDIA",1,"",0
-"96","INDIAN","Indian",1,"",0
-"97","INDONESIA","Indonesia",3,"",0
-"98","IRAN","Iran",5,"",0
-"99","IRAQ","Iraq",4,"",0
-"100","IRELAND","ireland",1,"",0
-"101","IRELAND","Ireland",2,"",0
-"102","ISLAND","Island",1,"",0
-"103","ISRAEL","Israel",2,"",0
-"104","ITALIA","Italia",1,"",0
-"105","ITALY","italy",3,"",0
-"106","ITALY","Italy",8,"",0
-"107","JAMAICA","Jamaica",1,"",0
-"108","JAPAN","japan",1,"",0
-"109","JAPAN","Japan",5,"",0
-"110","JORDAN","Jordan",1,"",0
-"111","KAZAKHSTAN","Kazakhstan",1,"",0
-"112","KENYA","Kenya",2,"",0
-"113","KIINA","Kiina",1,"",0
-"114","KINA","Kina",1,"",0
-"115","KOREA","korea",1,"",0
-"116","KOREA","Korea",5,"",0
-"117","KOSOVO","Kosovo",1,"",0
-"118","KSA","KSA",1,"",0
-"119","LATVIA","Latvia",7,"",0
-"120","LEBANON","Lebanon",1,"",0
-"121","LIBAN","Liban",1,"",0
-"122","LITAUEN","Litauen",2,"",0
-"123","LITHUANIA","Lithuania",2,"",0
-"124","MACEDONIA","Macedonia",1,"",0
-"125","MALAYSIA","malaysia",1,"",0
-"126","MALAYSIA","Malaysia",5,"",0
-"127","MALAYSIA","MALAYSIA",1,"",0
-"128","MALTA","Malta",2,"",0
-"129","MAURITIUS","Mauritius",2,"",0
-"130","MEXICO","Mexico",3,"",0
-"131","MEXICO","MEXICO",1,"",0
-"132","MOROCCO","Morocco",1,"",0
-"133","NEDERLAND","nederland",2,"",0
-"134","NEDERLAND","Nederland",4,"",0
-"135","NEPAL","nepal",1,"",0
-"136","NEPAL","Nepal",10,"",0
-"137","NETHERLANDS","Netherlands",5,"",0
-"138","NEUVOSTOLIITTO","Neuvostoliitto",1,"",0
-"139","NEW ZEALAND","new zealand",2,"",0
-"140","NEW ZEALAND","New zealand",3,"",0
-"141","NEW ZEALAND","New Zealand",16,"",0
-"142","NIGERIA","nigeria",1,"",0
-"143","NIGERIA","Nigeria",16,"",0
-"144","PAKISTAN","pakistan",2,"",0
-"145","PAKISTAN","Pakistan",22,"",0
-"146","PAKOSTAN","Pakostan",1,"",0
-"147","PALESTINE","Palestine",1,"",0
-"148","PAPUA NEW GUINEA","Papua New Guinea",1,"",0
-"149","PARAGUAY","paraguay",1,"",0
-"150","PARAGUAY","Paraguay",5,"",0
-"151","PAYS-BAS","Pays-Bas",1,"",0
-"152","PÉROU","Pérou",1,"",0
-"153","PERU","peru",1,"",0
-"154","PERU","Peru",3,"",0
-"155","PERU","PERU",1,"",0
-"156","PERÚ","Perú",1,"",0
-"157","PHILIPPINES","philippines",1,"",0
-"158","PHILIPPINES","Philippines",30,"",0
-"159","PHILIPPINES","PHILIPPINES",2,"",0
-"160","POLAND","poland",1,"",0
-"161","POLAND","Poland",11,"",0
-"162","POLAND","POLAND",1,"",0
-"163","POLEN","Polen",8,"",0
-"164","POLSKA","Polska",2,"",0
-"165","PORTUGAL","portugal",1,"",0
-"166","PORTUGAL","Portugal",3,"",0
-"167","PORTUGAL","PORTUGAL",1,"",0
-"168","PUOLA","Puola",1,"",0
-"169","ROMANIA","romania",2,"",0
-"170","ROMANIA","Romania",4,"",0
-"171","ROUMANIE","Roumanie",1,"",0
-"172","ROYAUME-UNI","Royaume-Uni",1,"",0
-"173","RUOTSI","Ruotsi",8,"",0
-"174","RUOTSISSA","ruotsissa",1,"",0
-"175","RUOTSISSA","Ruotsissa",3,"",0
-"176","RUSSIA","Russia",9,"",0
-"177","RUSSLAND","Russland",8,"",0
-"178","SAUDI ARABIA","Saudi Arabia",1,"",0
-"179","SCOTLAND","scotland",1,"",0
-"180","SCOTLAND","Scotland",4,"",0
-"181","SENEGAL","senegal",1,"",0
-"182","SERBIA","Serbia",3,"",0
-"183","SERBIA","SERBIA",1,"",0
-"184","SIERRA LEONE","Sierra Leone",1,"",0
-"185","SINGAPORE","singapore",3,"",0
-"186","SINGAPORE","Singapore",5,"",0
-"187","SINGAPORE","SINGAPORE",1,"",0
-"188","SLOVAKIA","Slovakia",1,"",0
-"189","SLOVAKIA","SLOVAKIA",1,"",0
-"190","SLOVENIA","Slovenia",1,"",0
-"191","SOLEIL ULTRA CIBLE","Soleil ultra cible",1,"",0
-"192","SOMALIA","Somalia",1,"",0
-"193","SØR KOREA","Sør Korea",1,"",0
-"194","SØR-AFRIKA","Sør-Afrika",1,"",0
-"195","SOUTH AFRICA","south africa",1,"",0
-"196","SOUTH AFRICA","South africa",2,"",0
-"197","SOUTH AFRICA","South Africa",9,"",0
-"198","SOUTH KOREA","South korea",1,"",0
-"199","SOUTH KOREA","South Korea",1,"",0
-"200","SPANIA","Spania",1,"",0
-"201","SRI LANKA","Sri Lanka",5,"",0
-"202","SRI LNAKA","Sri lnaka",1,"",0
-"203","SRILANKA","Srilanka",1,"",0
-"204","SRILANKA","SriLanka",1,"",0
-"205","STORBRITANNIA","Storbritannia",1,"",0
-"206","STORBRITTANIA","Storbrittania",1,"",0
-"207","SUOMI","suomi",1,"",0
-"208","SVERIGE","sverige",1,"",0
-"209","SVERIGE","Sverige",6,"",0
-"210","SWAZILAND","Swaziland",1,"",0
-"211","SWEDEN","sweden",1,"",0
-"212","SWEDEN","Sweden",1,"",0
-"213","SWITZERLAND","Switzerland",2,"",0
-"214","SYRIA","Syria",1,"",0
-"215","TAIWAN","taiwan",1,"",0
-"216","TAIWAN","Taiwan",2,"",0
-"217","TANZANIA","tanzania",1,"",0
-"218","TANZANIA","Tanzania",5,"",0
-"219","THAILAND","Thailand",2,"",0
-"220","THE NETHERLANDS","The Netherlands",1,"",0
-"221","THE PHILIPPINES","The Philippines",2,"",0
-"222","TRINIDAD AND TOBAGO","Trinidad and Tobago",1,"",0
-"223","TSJEKKIA","Tsjekkia",2,"",0
-"224","TURKEY","Turkey",1,"",0
-"225","TYRKIA","Tyrkia",3,"",0
-"226","TYSKLAND","Tyskland",1,"",0
-"227","UAE","uae",1,"",0
-"228","UAE","UAE",1,"",0
-"229","UGANDA","Uganda",3,"",0
-"230","UK","uk",2,"",0
-"231","UK","Uk",3,"",0
-"232","UK","UK",2,"",0
-"233","UKRAIN","Ukrain",1,"",0
-"234","UKRAINA","Ukraina",1,"",0
-"235","UKRAINASSA","Ukrainassa",1,"",0
-"236","UKRAINE","Ukraine",8,"",0
-"237","UNITED ARAB EMIRATES","United arab emirates",1,"",0
-"238","UNITED KINGDOM","United Kingdom",11,"",0
-"239","UNITED STATES","United States",1,"",0
-"240","UNITED STATES","UNITED STATES",1,"",0
-"241","UNITED STATES OF AMERICA","United States of America",1,"",0
-"242","URUGUAY","Uruguay",3,"",0
-"243","USA","usa",1,"",0
-"244","USA","Usa",1,"",0
-"245","USA","USA",11,"",0
-"246","USSR","ussr",1,"",0
-"247","USSR","USSR",1,"",0
-"248","UZBEKISTAN","Uzbekistan",1,"",0
-"249","VENÄJÄ","venäjä",1,"",0
-"250","VENÄJÄ","Venäjä",3,"",0
-"251","VENÄJÄ (INKERINMAA)","Venäjä (Inkerinmaa)",1,"",0
-"252","VENÄJÄN KARJALASSA","Venäjän Karjalassa",1,"",0
-"253","VENEZUELA","venezuela",2,"",0
-"254","VENEZUELA","Venezuela",11,"",0
-"255","VENEZUELA","VENEZUELA",2,"",0
-"256","VIET NAM","Viet Nam",1,"",0
-"257","VIETNAM","vietnam",2,"",0
-"258","VIETNAM","Vietnam",6,"",0
-"259","VIETNANM","Vietnanm",1,"",0
-"260","VIL IKKE","Vil ikke",1,"",0
-"261","VIRO","Viro",4,"",0
-"262","WALES","Wales",1,"",0
-"263","YHDYSVALLOISSA","Yhdysvalloissa",1,"",0
-"264","ZAMBIA","Zambia",1,"",0
-"265","ZIMBABWE","zimbabwe",3,"",0
-"266","ZIMBABWE","Zimbabwe",4,"",0
+"Country","Count.Var1","Count.Freq","CharacterCode","Code"
+"AASIASSA","Aasiassa",1,"XX",0
+"AFGHANISTAN","Afghanistan",1,"AF",1
+"AFRICA","Africa",2,"TD",34
+"ALBANIA","Albania",3,"CO",2
+"ALGERIE","Algerie",1,"DZ",3
+"AMERICA","america",1,"US",64
+"ANGOLA","Angola",1,"AO",5
+"ARGENTINA","argentina",2,"AR",7
+"ARGENTINA","Argentina",2,"AR",7
+"ARGENTINE","Argentine",1,"AR",7
+"ASIA","Asia",1,"RU",143
+"AUSTRALIA","Australia",1,"AU",9
+"AUSTRIA","Austria",1,"AT",10
+"AZERBAYJAN","Azerbayjan",1,"AZ",11
+"BANGLADESH","Bangladesh",7,"KE",14
+"BELARUS","Belarus",1,"BY",16
+"BÉLGICA","Bélgica",1,"",0
+"BELGIUM","Belgium",2,"",0
+"BOLIVIA","Bolivia",3,"",0
+"BOLIVIA","BOLIVIA",1,"",0
+"BOSNIA","bosnia",1,"",0
+"BOSNIA","Bosnia",1,"",0
+"BOSNIA AND HERZEGOVINA","Bosnia and Herzegovina",1,"",0
+"BRASIL","Brasil",5,"",0
+"BRAZIL","Brazil",4,"",0
+"BRITAIN","Britain",2,"",0
+"BULGARIA","Bulgaria",1,"",0
+"CALCUTTA INDIA","Calcutta india",1,"",0
+"CAMBODIA","cambodia",1,"",0
+"CAMEROUN","Cameroun",1,"",0
+"CANADA","Canada",4,"",0
+"CARRIBEAN","carribean",1,"",0
+"CHILE","chile",2,"",0
+"CHILE","Chile",5,"",0
+"CHINA","china",3,"",0
+"CHINA","China",22,"",0
+"CIOACIA","Cioacia",1,"",0
+"COLOMBIA","colombia",1,"",0
+"COLOMBIA","Colombia",3,"",0
+"COLOMBIAN","Colombian",1,"",0
+"CONGO KINSHASA","Congo Kinshasa",1,"",0
+"COSTA RICA","Costa Rica",1,"",0
+"CROATIA","croatia",1,"",0
+"CUBA","cuba",1,"",0
+"CUBA","Cuba",5,"",0
+"CYPRUS","Cyprus",4,"",0
+"CZECH REPUBLIC","czech republic",1,"",0
+"CZECH REPUBLIC","Czech Republic",1,"",0
+"CZECHOSLOVAK SOCIALIST REPUBLIC","czechoslovak socialist republic",1,"",0
+"DANMARK","Danmark",2,"",0
+"DENMARK","Denmark",2,"",0
+"DOMINICAN REPUBLIC","Dominican Republic",1,"",0
+"DOMINIKANSKE REPUBLIKK","Dominikanske Republikk",1,"",0
+"ECUADOR","Ecuador",1,"",0
+"EGYPT","Egypt",7,"",0
+"ENGLAND","england",4,"",0
+"ENGLAND","England",26,"",0
+"ENGLAND","ENGLAND",1,"",0
+"ESPAÑA","españa",1,"",0
+"ESPAÑA","España",2,"",0
+"ESTADOS UNIDOS","Estados Unidos",1,"",0
+"ETIOPIA","Etiopia",1,"",0
+"EUROPE","europe",1,"",0
+"EUROPE","Europe",1,"",0
+"EX JUGOSLAVIA","Ex jugoslavia",1,"",0
+"FIJI","Fiji",2,"",0
+"FILIPINENE","filipinene",1,"",0
+"FILIPINENE","Filipinene",1,"",0
+"FILIPPINENE","Filippinene",3,"",0
+"FINLAND","Finland",4,"",0
+"FORETREKKER IKKE Å SVARE","foretrekker ikke å svare",1,"",0
+"FRANCE","france",1,"",0
+"FRANCE","France",7,"",0
+"FRANCE","FRANCE",1,"",0
+"FRANCIA","Francia",1,"",0
+"FRANKRIKE","Frankrike",1,"",0
+"GERMANY","germany",1,"",0
+"GERMANY","Germany",9,"",0
+"GERMANY (MILITARY)","Germany (military)",1,"",0
+"GERMANY (PARENT ACTIVE DUTY MILITARY)","Germany (parent active duty military)",1,"",0
+"GHANA","ghana",1,"",0
+"GHANA","Ghana",5,"",0
+"GUATEMALA","Guatemala",4,"",0
+"GUYANA","Guyana",1,"",0
+"HAITI","Haiti",2,"",0
+"HELLAS","Hellas",1,"",0
+"HK","hk",1,"",0
+"HONG KONG","hong kong",3,"",0
+"HONG KONG","Hong Kong",21,"",0
+"HONG KONG","HONG KONG",1,"",0
+"HONG KONG, CHINA","Hong Kong, China",1,"",0
+"HUNGARY","Hungary",1,"",0
+"INDIA","india",5,"",0
+"INDIA","India",58,"",0
+"INDIA","INDIA",1,"",0
+"INDIAN","Indian",1,"",0
+"INDONESIA","Indonesia",3,"",0
+"IRAN","Iran",5,"",0
+"IRAQ","Iraq",4,"",0
+"IRELAND","ireland",1,"",0
+"IRELAND","Ireland",2,"",0
+"ISLAND","Island",1,"",0
+"ISRAEL","Israel",2,"",0
+"ITALIA","Italia",1,"",0
+"ITALY","italy",3,"",0
+"ITALY","Italy",8,"",0
+"JAMAICA","Jamaica",1,"",0
+"JAPAN","japan",1,"",0
+"JAPAN","Japan",5,"",0
+"JORDAN","Jordan",1,"",0
+"KAZAKHSTAN","Kazakhstan",1,"",0
+"KENYA","Kenya",2,"",0
+"KIINA","Kiina",1,"",0
+"KINA","Kina",1,"",0
+"KOREA","korea",1,"",0
+"KOREA","Korea",5,"",0
+"KOSOVO","Kosovo",1,"",0
+"KSA","KSA",1,"",0
+"LATVIA","Latvia",7,"",0
+"LEBANON","Lebanon",1,"",0
+"LIBAN","Liban",1,"",0
+"LITAUEN","Litauen",2,"",0
+"LITHUANIA","Lithuania",2,"",0
+"MACEDONIA","Macedonia",1,"",0
+"MALAYSIA","malaysia",1,"",0
+"MALAYSIA","Malaysia",5,"",0
+"MALAYSIA","MALAYSIA",1,"",0
+"MALTA","Malta",2,"",0
+"MAURITIUS","Mauritius",2,"",0
+"MEXICO","Mexico",3,"",0
+"MEXICO","MEXICO",1,"",0
+"MOROCCO","Morocco",1,"",0
+"NEDERLAND","nederland",2,"",0
+"NEDERLAND","Nederland",4,"",0
+"NEPAL","nepal",1,"",0
+"NEPAL","Nepal",10,"",0
+"NETHERLANDS","Netherlands",5,"",0
+"NEUVOSTOLIITTO","Neuvostoliitto",1,"",0
+"NEW ZEALAND","new zealand",2,"",0
+"NEW ZEALAND","New zealand",3,"",0
+"NEW ZEALAND","New Zealand",16,"",0
+"NIGERIA","nigeria",1,"",0
+"NIGERIA","Nigeria",16,"",0
+"PAKISTAN","pakistan",2,"",0
+"PAKISTAN","Pakistan",22,"",0
+"PAKOSTAN","Pakostan",1,"",0
+"PALESTINE","Palestine",1,"",0
+"PAPUA NEW GUINEA","Papua New Guinea",1,"",0
+"PARAGUAY","paraguay",1,"",0
+"PARAGUAY","Paraguay",5,"",0
+"PAYS-BAS","Pays-Bas",1,"",0
+"PÉROU","Pérou",1,"",0
+"PERU","peru",1,"",0
+"PERU","Peru",3,"",0
+"PERU","PERU",1,"",0
+"PERÚ","Perú",1,"",0
+"PHILIPPINES","philippines",1,"",0
+"PHILIPPINES","Philippines",30,"",0
+"PHILIPPINES","PHILIPPINES",2,"",0
+"POLAND","poland",1,"",0
+"POLAND","Poland",11,"",0
+"POLAND","POLAND",1,"",0
+"POLEN","Polen",8,"",0
+"POLSKA","Polska",2,"",0
+"PORTUGAL","portugal",1,"",0
+"PORTUGAL","Portugal",3,"",0
+"PORTUGAL","PORTUGAL",1,"",0
+"PUOLA","Puola",1,"",0
+"ROMANIA","romania",2,"",0
+"ROMANIA","Romania",4,"",0
+"ROUMANIE","Roumanie",1,"",0
+"ROYAUME-UNI","Royaume-Uni",1,"",0
+"RUOTSI","Ruotsi",8,"",0
+"RUOTSISSA","ruotsissa",1,"",0
+"RUOTSISSA","Ruotsissa",3,"",0
+"RUSSIA","Russia",9,"",0
+"RUSSLAND","Russland",8,"",0
+"SAUDI ARABIA","Saudi Arabia",1,"",0
+"SCOTLAND","scotland",1,"",0
+"SCOTLAND","Scotland",4,"",0
+"SENEGAL","senegal",1,"",0
+"SERBIA","Serbia",3,"",0
+"SERBIA","SERBIA",1,"",0
+"SIERRA LEONE","Sierra Leone",1,"",0
+"SINGAPORE","singapore",3,"",0
+"SINGAPORE","Singapore",5,"",0
+"SINGAPORE","SINGAPORE",1,"",0
+"SLOVAKIA","Slovakia",1,"",0
+"SLOVAKIA","SLOVAKIA",1,"",0
+"SLOVENIA","Slovenia",1,"",0
+"SOLEIL ULTRA CIBLE","Soleil ultra cible",1,"",0
+"SOMALIA","Somalia",1,"",0
+"SØR KOREA","Sør Korea",1,"",0
+"SØR-AFRIKA","Sør-Afrika",1,"",0
+"SOUTH AFRICA","south africa",1,"",0
+"SOUTH AFRICA","South africa",2,"",0
+"SOUTH AFRICA","South Africa",9,"",0
+"SOUTH KOREA","South korea",1,"",0
+"SOUTH KOREA","South Korea",1,"",0
+"SPANIA","Spania",1,"",0
+"SRI LANKA","Sri Lanka",5,"",0
+"SRI LNAKA","Sri lnaka",1,"",0
+"SRILANKA","Srilanka",1,"",0
+"SRILANKA","SriLanka",1,"",0
+"STORBRITANNIA","Storbritannia",1,"",0
+"STORBRITTANIA","Storbrittania",1,"",0
+"SUOMI","suomi",1,"",0
+"SVERIGE","sverige",1,"",0
+"SVERIGE","Sverige",6,"",0
+"SWAZILAND","Swaziland",1,"",0
+"SWEDEN","sweden",1,"",0
+"SWEDEN","Sweden",1,"",0
+"SWITZERLAND","Switzerland",2,"",0
+"SYRIA","Syria",1,"",0
+"TAIWAN","taiwan",1,"",0
+"TAIWAN","Taiwan",2,"",0
+"TANZANIA","tanzania",1,"",0
+"TANZANIA","Tanzania",5,"",0
+"THAILAND","Thailand",2,"",0
+"THE NETHERLANDS","The Netherlands",1,"",0
+"THE PHILIPPINES","The Philippines",2,"",0
+"TRINIDAD AND TOBAGO","Trinidad and Tobago",1,"",0
+"TSJEKKIA","Tsjekkia",2,"",0
+"TURKEY","Turkey",1,"",0
+"TYRKIA","Tyrkia",3,"",0
+"TYSKLAND","Tyskland",1,"",0
+"UAE","uae",1,"",0
+"UAE","UAE",1,"",0
+"UGANDA","Uganda",3,"",0
+"UK","uk",2,"",0
+"UK","Uk",3,"",0
+"UK","UK",2,"",0
+"UKRAIN","Ukrain",1,"",0
+"UKRAINA","Ukraina",1,"",0
+"UKRAINASSA","Ukrainassa",1,"",0
+"UKRAINE","Ukraine",8,"",0
+"UNITED ARAB EMIRATES","United arab emirates",1,"",0
+"UNITED KINGDOM","United Kingdom",11,"",0
+"UNITED STATES","United States",1,"",0
+"UNITED STATES","UNITED STATES",1,"",0
+"UNITED STATES OF AMERICA","United States of America",1,"",0
+"URUGUAY","Uruguay",3,"",0
+"USA","usa",1,"",0
+"USA","Usa",1,"",0
+"USA","USA",11,"",0
+"USSR","ussr",1,"",0
+"USSR","USSR",1,"",0
+"UZBEKISTAN","Uzbekistan",1,"",0
+"VENÄJÄ","venäjä",1,"",0
+"VENÄJÄ","Venäjä",3,"",0
+"VENÄJÄ (INKERINMAA)","Venäjä (Inkerinmaa)",1,"",0
+"VENÄJÄN KARJALASSA","Venäjän Karjalassa",1,"",0
+"VENEZUELA","venezuela",2,"",0
+"VENEZUELA","Venezuela",11,"",0
+"VENEZUELA","VENEZUELA",2,"",0
+"VIET NAM","Viet Nam",1,"",0
+"VIETNAM","vietnam",2,"",0
+"VIETNAM","Vietnam",6,"",0
+"VIETNANM","Vietnanm",1,"",0
+"VIL IKKE","Vil ikke",1,"",0
+"VIRO","Viro",4,"",0
+"WALES","Wales",1,"",0
+"YHDYSVALLOISSA","Yhdysvalloissa",1,"",0
+"ZAMBIA","Zambia",1,"",0
+"ZIMBABWE","zimbabwe",3,"",0
+"ZIMBABWE","Zimbabwe",4,"",0
