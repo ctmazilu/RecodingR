@@ -13,15 +13,15 @@ if (!requireNamespace("tmaptools", quietly = TRUE)) {
 if (!requireNamespace("readxl", quietly = TRUE)) {
   install.packages("readxl")
 }
-if (!requireNamespace("stringr", quietly = TRUE)) {
-  install.packages("stringr")
+if (!requireNamespace("writexl", quietly = TRUE)) {
+  install.packages("writexl")
 }
 
 # Load the necessary libraries
 library("tmap")
 library("tmaptools")
 library("readxl")
-library(stringr)
+library(writexl) 
 
 setwd(getSrcDirectory(function(){})[1])
 
@@ -32,7 +32,7 @@ country_ref <- read_excel(file_path_cf)
 country_ref$CharacterCode <- ""
 
 # Using the Open Street Map packages, run a loop through each counrty in country_ref
-for (i in 1:4+0*nrow(country_ref)) {
+for (i in 1:nrow(country_ref)) {
   cr <- country_ref$Country[i]
   # find the location of the response
   gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
@@ -44,7 +44,44 @@ for (i in 1:4+0*nrow(country_ref)) {
   country_ref$CharacterCode[i] <- c_code
 }
 
+write.csv(country_ref, "country_list3.csv" )
 
+##################
+# Define the path to the CSV file
+file_path_cf <-"all_countries_df.csv"
+
+all_country_ref <- read.csv(file_path_cf)
+all_country_ref$CharacterCode <- ""
+all_country_ref$Code <- 0
+
+# Using the Open Street Map packages, run a loop through each counrty in country_ref
+for (i in 1:nrow(all_country_ref)) {
+  cr <- all_country_ref$Country[i]
+  # find the location of the response
+  gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
+  if(is.null(gloc)) {
+    c_code <- "XX"
+  } else {
+    # compare location of the response
+    rloc <- tmaptools::rev_geocode_OSM(gloc)
+    # turn the response to upper case
+    c_code <- (toupper(rloc[[1]]$country_code))
+  }
+  print (c(cr, c_code))
+  all_country_ref$CharacterCode[i] <- c_code
+  cc <- (which(c_code == country_ref$CharacterCode, arr.ind = TRUE))
+  # deals with NA responses 
+  if (length(cc) > 0) {
+    # print (c(response, cn, cc))
+    # attributes the country code to the case number
+    all_country_ref$Code[i] <- cc[1]
+  } else {
+    all_country_ref$Code[i] <- 0
+  }
+  
+}
+
+write.csv(all_country_ref, "all_country_df3.csv" )
 
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
 
