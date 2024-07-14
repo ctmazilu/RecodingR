@@ -56,16 +56,16 @@ for (i in 1:nrow(country_ref)) {
 
 ##################
 # Define the path to the CSV file
-file_path_cf <-"all_countries_df.csv"
+file_path_cf <-"all_country_df3.csv"
 
 all_country_ref <- read.csv(file_path_cf)
-all_country_ref$CharacterCode <- ""
-all_country_ref$Code <- 0
+#all_country_ref$CharacterCode <- ""
+#all_country_ref$Code <- 0
 
 # Using the Open Street Map packages, run a loop through each counrty in country_ref
 for (i in 1:nrow(all_country_ref)) {
   cr <- all_country_ref$Country[i]
-  if (toString(all_country_ref$CharacterCode[i])=="") {
+  if (all_country_ref$Code[i]=="0") {
   # find the location of the response
   gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
   if(is.null(gloc)) {
@@ -84,7 +84,7 @@ for (i in 1:nrow(all_country_ref)) {
     # attributes the country code to the case number
     all_country_ref$Code[i] <- cc[1]
   } else {
-    all_country_ref$Code[i] <- 0
+    all_country_ref$Code[i] <- -1
   }
   print (c(i, cr, cc, c_code))
   write.csv(all_country_ref, "all_country_df3.csv", row.names = FALSE )
