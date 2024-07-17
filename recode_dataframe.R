@@ -26,7 +26,6 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 }
 
 # Load the necessary libraries
-#library("tmap")
 library("remotes")
 library("tmap")
 library("tmaptools")
