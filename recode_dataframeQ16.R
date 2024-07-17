@@ -4,8 +4,13 @@
 # Last edited: 17/07/2024
 
 # Install Packages 
+#### tmap 3.x is retiring.####
+#  install_github("r-tmap/tmap@v4")
 if (!requireNamespace("tmap", quietly = TRUE)) {
   install.packages("tmap")
+}
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
 }
 if (!requireNamespace("tmaptools", quietly = TRUE)) {
   install.packages("tmaptools")
@@ -18,6 +23,8 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 }
 
 # Load the necessary libraries
+#library("tmap")
+library("remotes")
 library("tmap")
 library("tmaptools")
 library("readxl")
@@ -58,7 +65,7 @@ all_country <- sort(unique(CSVS$Q16))
 
 # Create a dataframe of all countries
 all_country_ref <- data.frame(
-  Country = all_county,
+  Country = all_country,
   Count = count,
   stringsAsFactors = FALSE
 )
@@ -84,7 +91,7 @@ for (i in 1:nrow(all_country_ref)) {
     cc <- (which(c_code == country_ref$CharacterCode, arr.ind = TRUE))
     # deals with NA responses 
     if (length(cc) > 0) {
-      # print (c(response, cn, cc))
+      print (c(response, cn, cc))
       # attributes the country code to the case number
       all_country_ref$Code[i] <- cc[1]
     } else {
@@ -96,11 +103,11 @@ for (i in 1:nrow(all_country_ref)) {
     # creates a csv file with the found codes. 
     # commented out so that it does not override the edited sheet
     # errors need to be recoded manually
-    # write.csv(all_country_ref, "all_country_df3.csv", row.names = FALSE )
+    write.csv(all_country_ref, "all_country_dfQ16.csv", row.names = FALSE )
     # Delays the output by 2 seconds to not overburden the server 
     Sys.sleep(2)  
   }
 }
 
 
-CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
+CSVS$Q16 <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start

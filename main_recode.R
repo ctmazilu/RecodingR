@@ -5,12 +5,6 @@
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
 
 # Install Packages 
-if (!requireNamespace("tmap", quietly = TRUE)) {
-  install.packages("tmap")
-}
-if (!requireNamespace("tmaptools", quietly = TRUE)) {
-  install.packages("tmaptools")
-}
 if (!requireNamespace("readxl", quietly = TRUE)) {
   install.packages("readxl")
 }
@@ -19,8 +13,6 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 }
 
 # Load the necessary libraries
-library("tmap")
-library("tmaptools")
 library("readxl")
 library("writexl") 
 

@@ -4,8 +4,16 @@
 # Last edited: 14/07/2024
 
 # Install Packages 
-if (!requireNamespace("tmap", quietly = TRUE)) {
-  install.packages("tmap")
+#### tmap 3.x is retiring.
+#if (!requireNamespace("tmap", quietly = TRUE)) {
+#  install.packages("tmap")
+#}
+## instead try 
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+if (!requireNamespace("r-tmap/tmap@v4", quietly = TRUE)) {
+  install_github("r-tmap/tmap@v4")
 }
 if (!requireNamespace("tmaptools", quietly = TRUE)) {
   install.packages("tmaptools")
@@ -18,6 +26,8 @@ if (!requireNamespace("writexl", quietly = TRUE)) {
 }
 
 # Load the necessary libraries
+#library("tmap")
+library("remotes")
 library("tmap")
 library("tmaptools")
 library("readxl")
