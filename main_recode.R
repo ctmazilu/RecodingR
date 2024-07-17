@@ -32,35 +32,19 @@ country_ref <- read.csv(file_path_cf)
 file_path_cf <-"all_country_df3.csv"
 all_country_ref <- read.csv(file_path_cf)
 
-# runs a loop of each case number in the CSVS Rdata
-for (cn in 1:20+0*nrow(CSVS)) {
-  # attributes the response of the CSVS Rdata and then turns it into uppercase
-  response <- (toupper(CSVS$Q13r2oe[cn]))
-  # retrieves the country code from the country_list.xlsx 
-  cc <- (which(response == country_ref$Country, arr.ind = TRUE))
+# i is the row number for the CSVS
+for (i in 1:nrow(CSVS)) {
+  response <- (CSVS$Q13r2oe[i])
+  # rn is the row number for the all country ref
+  rn <- (which(response == all_country_ref$Count.Var1, arr.ind = TRUE))
+  country_no <- all_country_ref$Code[rn]
   # deals with NA responses 
-  if (length(cc) > 0) {
-    # print (c(response, cn, cc))
+  if (length(rn) > 0) {
     # attributes the country code to the case number
-    CSVS[cn, "Q13X"] <- cc[1]
-    
-  }
-  else {
-    # for-loop over rows
-    gloc <- tmaptools::geocode_OSM(response, as.sf = TRUE)
-    rloc <- tmaptools::rev_geocode_OSM(gloc)
-    coded_response <- (toupper(rloc[[1]]$country))
-    cc <- (which(coded_response == country_ref$Country, arr.ind = TRUE))
-    if (length(cc) > 0) {
-      print (c(response, coded_response, cn, cc))
-      # attributes the country code to the case number
-      CSVS[cn, "Q13X"] <- cc[1]
-      
-    }
+    CSVS[i, "Q13X"] <- country_no[1]
   }
 }
 
 # check to make sure that worked
-
 table(CSVS$Q13X)
 
