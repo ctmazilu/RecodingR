@@ -1,7 +1,7 @@
 # Recode for CSVS
 # Written by CM and MM
 # Date created: 14/07/2024
-# Last edited: 14/07/2024
+# Last edited: 17/07/2024
 
 # Install Packages 
 if (!requireNamespace("tmap", quietly = TRUE)) {
@@ -52,13 +52,16 @@ for (i in 1:nrow(country_ref)) {
   }
 }
 
-##################
-# Define the path to the CSV file
-file_path_cf <-"all_country_df3.csv"
+# count and sort unique countries
+count <- table(CSVS$Q16)
+all_country <- sort(unique(CSVS$Q16))
 
-all_country_ref <- read.csv(file_path_cf)
-#all_country_ref$CharacterCode <- ""
-#all_country_ref$Code <- 0
+# Create a dataframe of all countries
+all_country_ref <- data.frame(
+  Country = all_county,
+  Count = count,
+  stringsAsFactors = FALSE
+)
 
 # Using the Open Street Map packages, run a loop through each country in country_ref
 for (i in 1:nrow(all_country_ref)) {
