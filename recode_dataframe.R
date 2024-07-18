@@ -68,10 +68,10 @@ remove.accents <- function(s) {
 }
 
 # Run the script
-#all_country_dfQ16$Country = remove.accents(all_country_dfQ16$Country)
+all_country_dfQ16$Country = remove.accents(all_country_dfQ16$Country)
 
 # Save the CSV file with the new modifications
-#write.csv(all_country_dfQ16, "all_country_dfQ16.csv", row.names = FALSE )
+write.csv(all_country_dfQ16, "all_country_dfQ16.csv", row.names = FALSE )
 
 # Using the Open Street Map packages, run a loop through each country in all_country_dfQ16
 for (i in 1:nrow(all_country_dfQ16)) {
