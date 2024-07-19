@@ -2,7 +2,16 @@
 # Written by CM and MM
 # Date created: 14/07/2024
 # Last edited: 18/07/2024
+
+# Load the Cultural and Social Values Survey
+load("CSVS_2024_04_06.RData")
+
 CSVS$Q13X <- replicate(nrow(CSVS), 0) # this creates the new variable and fills it with Zeros to start
+# check to make sure that worked
+table(CSVS$Q13X)
+
+uncoded <- CSVS$Q13X
+save(uncoded, file = "CSVS_2024_04_06.RData")
 
 # Define the path to the CSV file
 # These csv files are from the recode_dataframe.R, created using Open Street Map and manual changes
@@ -28,4 +37,18 @@ for (i in 1:nrow(CSVS)) {
 
 # check to make sure that worked
 table(CSVS$Q13X)
+
+recoded <- CSVS$Q13X
+
+if (exists("responses")) {
+  # Save the updated dataframe back into the RData file
+  save(recoded, file = "CSVS_2024_04_06.RData")
+  
+  # Verify the recoding
+  load("CSVS_2024_04_06.RData")
+  print(responses)
+  cat("RECODING SUCCESSFUL. \n ")
+} else {
+  cat("RECODING UNSUCCESSFUL. \n")
+}
 
