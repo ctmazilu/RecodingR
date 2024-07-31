@@ -37,7 +37,7 @@
 "China",36,"CN","中国"
 "Colombia",37,"CO","COLOMBIA"
 "Comoros",38,"KM","COMORES KOMORI جزر القمر"
-"Congo",39,"CD","RÉPUBLIQUE DÉMOCRATIQUE DU CONGO"
+"Congo",39,"CG","CONGO"
 "Costa Rica",40,"CR","COSTA RICA"
 "Cote Ivoire",41,"CI","CÔTE D’IVOIRE"
 "Croatia",42,"HR","HRVATSKA"
@@ -200,3 +200,4 @@
 "Peurto Rico",199,"PR","Peurto Rico"
 "Multiple Countries",200,"XX","Multiple Countries"
 "Other",201,"ZZ","Unknown or Invalid Territory"
+"Greenland", 202, "GL", "GREENLAND"
