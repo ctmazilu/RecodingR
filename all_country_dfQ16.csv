@@ -4,7 +4,7 @@
 "1988","1988",1,"ZZ",201
 "2004","2004",1,"ZZ",201
 "2006","2006",1,"ZZ",201
-"Africa","Africa",5,"ZZ",201
+"Africa","Africa",5,"XX",200
 "Alaska","Alaska",1,"US",187
 "Albania","Albania",2,"AL",2
 "Aleman","Alemán",1,"DE",65
@@ -18,7 +18,7 @@
 "argentina","argentina",3,"AR",7
 "Argentina","Argentina",5,"AR",7
 "Argitina","Argitina",1,"AR",7
-"Asia","Asia",2,"ZZ",201
+"Asia","Asia",2,"XX",200
 "austalia","austalia",1,"AU",9
 "Australia","Australia",7,"AU",9
 "Avenue Portland","Avenue Portland",1,"US",187
@@ -337,7 +337,7 @@
 "Viro","Viro",4,"EE",56
 "Virosta","Virosta",2,"EE",56
 "West Germany","West Germany",1,"DE",65
-"Yhdysvalloista","Yhdysvalloista",1,"ZZ",201
+"Yhdysvalloista","Yhdysvalloista",1,"US",187
 "Zambia","Zambia",1,"ZM",194
 "zimbabwe","zimbabwe",1,"ZW",195
 "Zimbabwe","Zimbabwe",4,"ZW",195
