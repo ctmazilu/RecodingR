@@ -7,6 +7,23 @@
 if (!requireNamespace("readxl", quietly = TRUE)) {
   install.packages("readxl")
 }
+if (!requireNamespace("tmap", quietly = TRUE)) {
+  install.packages("tmap")
+}
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+if (!requireNamespace("tmaptools", quietly = TRUE)) {
+  install.packages("tmaptools")
+}
+
+#### tmap 3.x is retiring. ####
+# install_github("r-tmap/tmap@v4")
+
+# Load the necessary libraries
+library("remotes")
+library("tmap")
+library("tmaptools")
 # Load the necessary libraries
 library("readxl")
 
@@ -15,6 +32,19 @@ file_path_cf <-"country_list.xlsx"
 country_ref <- read_excel(file_path_cf)
 
 write.csv(country_ref, "country_list.csv", row.names = FALSE)
+
+country_ref <- data.frame(
+  Country = country_ref$Country,
+  Code = country_ref$Code,
+  CharacterCode = "",
+  tmapCountry = "",
+  stringsAsFactors = FALSE
+)
+
+# Originally the file path was country_list.csv but after a few iterations 
+# we fed back the updated version 
+file_path_cf <-"country_list3.csv"
+country_ref <- read.csv(file_path_cf)
 
 ## country_ref is the same for Q13r2oe, Q16, Q16a and only needs ran once
 ## Using the Open Street Map packages, run a loop through each country in country_ref
