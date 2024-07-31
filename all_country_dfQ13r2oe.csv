@@ -1,7 +1,7 @@
 "Country","Count.Var1","Count.Freq","CharacterCode","Code"
-"AASIASSA","Aasiassa",1,"XX",-1
+"AASIASSA","Aasiassa",1,"ZZ",201
 "AFGHANISTAN","Afghanistan",1,"AF",1
-"AFRICA","Africa",2,"XX",-1
+"AFRICA","Africa",2,"XX",200
 "ALBANIA","Albania",3,"AL",2
 "ALGERIE","Algerie",1,"DZ",3
 "AMERICA","america",1,"US", 187
@@ -9,7 +9,7 @@
 "ARGENTINA","argentina",2,"AR",7
 "ARGENTINA","Argentina",2,"AR",7
 "ARGENTINE","Argentine",1,"AR",7
-"ASIA","Asia",1,"XX",-1
+"ASIA","Asia",1,"XX",200
 "AUSTRALIA","Australia",1,"AU",9
 "AUSTRIA","Austria",1,"AT",10
 "AZERBAYJAN","Azerbayjan",1,"AZ",11
@@ -30,7 +30,7 @@
 "CAMBODIA","cambodia",1,"KH",30
 "CAMEROUN","Cameroun",1,"CM",31
 "CANADA","Canada",4,"CA",32
-"CARRIBEAN","carribean",1,"XX",-1
+"CARRIBEAN","carribean",1,"XX",200
 "CHILE","chile",2,"CL",35
 "CHILE","Chile",5,"CL",35
 "CHINA","china",3,"CN",36
@@ -61,15 +61,15 @@
 "ESPANA","España",2,"ES",163
 "ESTADOS UNIDOS","Estados Unidos",1,"US",187
 "ETIOPIA","Etiopia",1,"ET",58
-"EUROPE","europe",1,"XX",-1
-"EUROPE","Europe",1,"XX",-1
-"EX JUGOSLAVIA","Ex jugoslavia",1,"XX",-1
+"EUROPE","europe",1,"XX",200
+"EUROPE","Europe",1,"XX",200
+"EX JUGOSLAVIA","Ex jugoslavia",1,"ZZ",201
 "FIJI","Fiji",2,"FJ",59
 "FILIPINENE","filipinene",1,"PH",138
 "FILIPINENE","Filipinene",1,"PH",138
 "FILIPPINENE","Filippinene",3,"PH",138
 "FINLAND","Finland",4,"FI",60
-"FORETREKKER IKKE A SVARE","foretrekker ikke å svare",1,"XX",-1
+"FORETREKKER IKKE A SVARE","foretrekker ikke å svare",1,"ZZ",201
 "FRANCE","france",1,"FR",61
 "FRANCE","France",7,"FR",61
 "FRANCE","FRANCE",1,"FR",61
@@ -145,7 +145,7 @@
 "PAKISTAN","pakistan",2,"PK",132
 "PAKISTAN","Pakistan",22,"PK",132
 "PAKOSTAN","Pakostan",1,"PK",132
-"PALESTINE","Palestine",1,"XX",-1
+"PALESTINE","Palestine",1,"PS",196
 "PAPUA NEW GUINEA","Papua New Guinea",1,"PG",135
 "PARAGUAY","paraguay",1,"PY",136
 "PARAGUAY","Paraguay",5,"PY",136
@@ -189,7 +189,7 @@
 "SLOVAKIA","Slovakia",1,"SK",156
 "SLOVAKIA","SLOVAKIA",1,"SK",156
 "SLOVENIA","Slovenia",1,"SI",157
-"SOLEIL ULTRA CIBLE","Soleil ultra cible",1,"XX",-1
+"SOLEIL ULTRA CIBLE","Soleil ultra cible",1,"ZZ",201
 "SOMALIA","Somalia",1,"SO",159
 "SOR KOREA","Sør Korea",1,"KR",161
 "SOR-AFRIKA","Sør-Afrika",1,"ZA",160
@@ -259,7 +259,7 @@
 "VIETNAM","Vietnam",6,"VN",192
 "VIETNANM","Vietnanm",1,"VN",192
 "VIL IKKE","Vil ikke",1,"NO",130
-"VIRO","Viro",4,"XX",-1
+"VIRO","Viro",4,"ES",56
 "WALES","Wales",1,"GB",186
 "YHDYSVALLOISSA","Yhdysvalloissa",1,"US",187
 "ZAMBIA","Zambia",1,"ZM",194
