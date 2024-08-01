@@ -58,7 +58,7 @@
 "colombia","colombia",1,"CO",37
 "Colombia","Colombia",2,"CO",37
 "columbia","columbia",1,"CO",37
-"Cook island","Cook island",1,"GS",-1
+"Cook island","Cook island",1,"NZ"124
 "Croacia","Croacia",1,"HR",42
 "croatia","croatia",2,"HR",42
 "Croatia","Croatia",2,"HR",42
@@ -92,7 +92,7 @@
 "Estados unidos","Estados unidos",1,"US",187
 "Estados Unidos","Estados Unidos",2,"US",187
 "ESTADOS UNIDOS","ESTADOS UNIDOS",1,"US",187
-"Estados Unidos, china e Brasil","Estados Unidos, china e Brasil",1,"XX",-1
+"Estados Unidos, china e Brasil","Estados Unidos, china e Brasil",1,"XX",200
 "Ethiopia","Ethiopia",1,"ET",58
 "EUA","EUA",1,"US",187
 "europe","europe",2,"XX",200
@@ -103,7 +103,7 @@
 "Franca","França",1,"FR",61
 "france","france",1,"FR",61
 "France","France",5,"FR",61
-"France and India","France and India",1,"XX",-1
+"France and India","France and India",1,"XX",200
 "Francia, Paris mi madre","Francia, París mi madre",1,"FR",61
 "Frankrike","Frankrike",1,"FR",61
 "germany","germany",4,"DE",65
@@ -148,7 +148,7 @@
 "Iran","Iran",1,"IR",80
 "ireland","ireland",3,"IE",82
 "Ireland","Ireland",12,"IE",82
-"Ireland and sweden","Ireland and sweden",1,"XX",-1
+"Ireland and sweden","Ireland and sweden",1,"XX",200
 "Irlanti","Irlanti",1,"IE",82
 "Isle of Man","Isle of Man",1,"GB",186
 "Israel","Israel",1,"IL",83
@@ -220,7 +220,7 @@
 "pakistan","pakistan",3,"PK",132
 "Pakistan","Pakistan",14,"PK",132
 "PAKISTAN","PAKISTAN",1,"PK",132
-"Palestine","Palestine",1,"XX",-1
+"Palestine","Palestine",1,"PS",196
 "paraguay","paraguay",4,"PY",136
 "Paraguay","Paraguay",15,"PY",136
 "Paraiba","Paraiba",1,"BR",24
@@ -288,7 +288,7 @@
 "Switzerland","Switzerland",1,"CH",170
 "Syria","Syria",1,"SY",171
 "Tailandes","Tailandés",1,"TH",174
-"Taiwan","Taiwan",1,"TW",-1
+"Taiwan","Taiwan",1,"TW",198
 "Thailand","Thailand",1,"TH",174
 "the netherlands","the netherlands",1,"NL",123
 "The Netherlands","The Netherlands",3,"NL",123
@@ -320,7 +320,7 @@
 "United States of America","United States of America",2,"US",187
 "uruguay","uruguay",3,"UY",188
 "Uruguay","Uruguay",6,"UY",188
-"Uruguay y Paraguay","Uruguay y Paraguay",1,"XX",-1
+"Uruguay y Paraguay","Uruguay y Paraguay",1,"XX",200
 "usa","usa",1,"US",187
 "Usa","Usa",4,"US",187
 "USA","USA",3,"US",187

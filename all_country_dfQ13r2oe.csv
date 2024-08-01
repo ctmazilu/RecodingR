@@ -115,7 +115,7 @@
 "KINA","Kina",1,"CN",36
 "KOREA","korea",1,"KR",161
 "KOREA","Korea",5,"KR",161
-"KOSOVO","Kosovo",1,"XK",-1
+"KOSOVO","Kosovo",1,"ZZ", 201
 "KSA","KSA",1,"SA",150
 "LATVIA","Latvia",7,"LV",94
 "LEBANON","Lebanon",1,"LB",95
@@ -213,8 +213,8 @@
 "SWEDEN","Sweden",1,"SE",169
 "SWITZERLAND","Switzerland",2,"CH",170
 "SYRIA","Syria",1,"SY",171
-"TAIWAN","taiwan",1,"TW",-1
-"TAIWAN","Taiwan",2,"TW",-1
+"TAIWAN","taiwan",1,"TW",198
+"TAIWAN","Taiwan",2,"TW",198
 "TANZANIA","tanzania",1,"TZ",173
 "TANZANIA","Tanzania",5,"TZ",173
 "THAILAND","Thailand",2,"TH",174
