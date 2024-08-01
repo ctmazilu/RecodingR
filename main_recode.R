@@ -24,11 +24,8 @@ CSVS$Q16X <- replicate(nrow(CSVS), 0)
 # check to make sure that worked
 table(CSVS$Q16X)
 
-# Define the path to the CSV file
+# Define the path to the CSV file, change corresponding question
 # These csv files are from the recode_dataframe.R, created using Open Street Map and manual changes
-#file_path_cf <-"country_list3.csv"
-#country_ref <- read.csv(file_path_cf)
-# Change corresponding question
 file_path_cf <-"all_country_dfQ16.csv"
 all_country_ref <- read.csv(file_path_cf)
 

@@ -27,7 +27,6 @@ library("tmaptools")
 file_path_cf <-"country_list3.csv"
 country_ref <- read.csv(file_path_cf)
 
-# Only needs run at the start, otherwise will be overwitten
 # Change the Question when appropriate
 count <- table(CSVS$Q16)
 all_country <- sort(unique(CSVS$Q16))
@@ -41,7 +40,10 @@ all_country_df <- data.frame(
   stringsAsFactors = FALSE
 )
 
-write.csv(all_country_df, "all_country_dfQ16.csv", row.names = FALSE )
+if (missing(all_country_df)){
+  write.csv(all_country_df, "all_country_dfQ16.csv", row.names = FALSE )
+}
+
 
 # From now on call the new file with updated locations
 file_path_cf <-"all_country_dfQ16.csv"
@@ -65,14 +67,13 @@ remove.accents <- function(s) {
   for(i in seq_along(old_values)) s <- gsub(old_values[i], new_values[i], s, fixed = TRUE)
   
   s
+  # Save the CSV file with the new modifications 
+  write.csv(all_country_df, "all_country_dfQ16.csv", row.names = FALSE )
 }
 
-# Run the script
+# Run the script, do not run again if data already cleaned
 all_country_df$Country = remove.accents(all_country_df$Country)
 
-# Save the CSV file with the new modifications 
-# Do not run again to overwrite 
-write.csv(all_country_df, "all_country_dfQ16.csv", row.names = FALSE )
 
 # Using the Open Street Map packages, run a loop through each country in all_country_dfQ16
 for (i in 1:nrow(all_country_df)) {
