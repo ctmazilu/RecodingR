@@ -42,9 +42,9 @@ library("tmaptools")
 
 ## Method
 
-1. Find Character Code using One Street Map [character_codes.R](character_codes.R) 
+1. **Find Character Code using One Street Map**
 
-  This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
+[character_codes.R](character_codes.R) takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
 
 ```
 # find the location of the response
@@ -55,14 +55,16 @@ rloc <- tmaptools::rev_geocode_OSM(gloc)
 c_code <- (toupper(rloc[[1]]$country_code)
 ```
 
-2. Data Cleaning [recode_dataframe.R](recode_dataframe.R) 
-Data preprocessing the open-ended responses to make the recoding run smoothly:
+2. **Data Cleaning** 
+
+[recode_dataframe.R](recode_dataframe.R) does the data preprocessing the open-ended responses to make the recoding run smoothly:
 > - removing punctuation
 > - special characters
 > - all upper case.
 
-3. Recode Variables [main_recode.R](main_recode.R) 
-Then the main code assigns the open-ended response the corresponding country code. Due to imperfections, some (minimal) manual corrections are necessary. 
+3. **Recode Variables**
+
+Then the [main code](main_recode.R) assigns the open-ended response the corresponding country code. Due to imperfections, some (minimal) manual corrections are necessary. 
 
 ``` main_recode
 CSVS$Q13X <- replicate(nrow(CSVS), 0)
