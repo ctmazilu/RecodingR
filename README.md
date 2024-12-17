@@ -8,6 +8,7 @@ CSVS Recoding Report
   exist](#dealing-with-countries-which-no-longer-exist)
 - [Packages](#packages)
 - [Main Code](#main-code)
+- [Copyright](#copyright)
 
 ## Introduction
 
