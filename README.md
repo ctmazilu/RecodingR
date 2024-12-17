@@ -59,8 +59,8 @@ c_code <- (toupper(rloc[[1]]$country_code)
 
 [recode_dataframe.R](recode_dataframe.R) does the data preprocessing the open-ended responses to make the recoding run smoothly:
 > - removing punctuation
-> - special characters
-> - all upper case.
+> - removing special characters
+> - formatting all upper case.
 
 3. **Recode Variables**
 
