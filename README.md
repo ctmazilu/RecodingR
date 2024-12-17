@@ -1,7 +1,7 @@
 CSVS Recoding Report
 ================
 
-Index
+## Index
 
 - [Introduction](#introduction)
 - [Data Description](#data-description)
