@@ -1,6 +1,8 @@
 CSVS Recoding Report
 ================
 
+Index
+
 - [Introduction](#introduction)
 - [Data Description](#data-description)
 - [Packages](#packages)
@@ -20,7 +22,7 @@ This project aims to recode variables in the Cultural and Social Values survey (
 
 ## Data Description 
 
-The survey was fielded in all 8 project countries (Argentina, Australia, Brazil, Canada, Finland, Norway, the US, and the UK). Collection is complete with 8800 responses. For further details on the Cultural and Social Values
+The survey was fielded in all 8 project countries (Argentina, Australia, Brazil, Canada, Finland, Norway, the US, and the UK). Collection is complete with 8800 responses. Further details on the Cultural and Social Values
 survey and what it is used for can be found [here](https://nonreligionproject.ca/cultural-and-social-values-survey/)
 > The survey asks about people’s personal, cultural, and social values, including attitudes and behaviours on ethical questions, and orientations towards politics, science, law, education, and life’s meaning. The survey also examines people’s involvement with religion, spirituality, and their identification with nonreligious labels such as atheism, agnosticism, or humanism. We have collected a sample of approximately 1,000 responses in each of the countries.
 
@@ -40,13 +42,13 @@ library("tmaptools")
 
 ## Method
 
-[character_codes.R](character_codes.R) 
+1. [character_codes.R](character_codes.R) 
 > This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
 
-[recode_dataframe.R](recode_dataframe.R) 
+2. [recode_dataframe.R](recode_dataframe.R) 
 > Following this, data processing the open-ended responses, removing punctuation, special characters and all upper case.
 
-[main_recode.R](main_recode.R) 
+3. [main_recode.R](main_recode.R) 
 > Then the main code assigns the open-ended response the corresponding country code. Due to imperfections, some (minimal) manual corrections are necessary. 
 
 ``` main_recode
@@ -71,7 +73,7 @@ result <- table(CSVS$Q13X)
 print(result)
 ```
 
-## Result
+## Results
 Table 1.
 |ID| Country              | Count.Var1         | Count.Freq | CharacterCode | Code |
 |--|----------------------|--------------------|------------|---------------|------|
@@ -83,7 +85,8 @@ Table 1.
 |06| Afrika               | africa             | 2          | XX            | 200  |
 |07| CZECHOSLOVAK SOCIALIST REPUBLIC	|czechoslovak socialist republic	|1	|45    |
 
-# Discussion
+
+## Discussion
 
 Due to the open-ended nature of the responses, there were complications to categorisation. This should be reflected on further when conducting future surveys. These complications and their solutions are discussed in further detail below.
 
@@ -103,7 +106,7 @@ accommodate for multiple answers.
 We have decided to handle these responses by grouping these 33 resonses
 into a new category names **Multiple Countries**, CharacterCode:XX, Code:200
 
-## Dealing with continent responses
+## Dealing with 'continent' responses
 
 Similarly, 6 responses were Africa, 4 Europe, 1 Carribean Island, 1
 Central America, 2 Middle East. These responses are two general to be
