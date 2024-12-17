@@ -43,7 +43,8 @@ library("tmaptools")
 ## Method
 
 1. Find Character Code using One Street Map [character_codes.R](character_codes.R) 
-This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
+
+  This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
 
 ```
 # find the location of the response
