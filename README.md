@@ -42,14 +42,26 @@ library("tmaptools")
 
 ## Method
 
-1. [character_codes.R](character_codes.R) 
-> This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
+1. Find Character Code using One Street Map [character_codes.R](character_codes.R) 
+This takes the excel sheet that contains a list of countries [(country_list.xlsx)](country_list.xlsx) with their code and uses One Street Map to find their corresponding two digit character code. 
 
-2. [recode_dataframe.R](recode_dataframe.R) 
-> Following this, data processing the open-ended responses, removing punctuation, special characters and all upper case.
+```
+# find the location of the response
+gloc <- tmaptools::geocode_OSM(cr, as.sf = TRUE)
+# compare location of the response
+rloc <- tmaptools::rev_geocode_OSM(gloc)
+# turn the located 2 letter character code to upper case
+c_code <- (toupper(rloc[[1]]$country_code)
+```
 
-3. [main_recode.R](main_recode.R) 
-> Then the main code assigns the open-ended response the corresponding country code. Due to imperfections, some (minimal) manual corrections are necessary. 
+2. Data Cleaning [recode_dataframe.R](recode_dataframe.R) 
+Data preprocessing the open-ended responses to make the recoding run smoothly:
+> - removing punctuation
+> - special characters
+> - all upper case.
+
+3. Recode Variables [main_recode.R](main_recode.R) 
+Then the main code assigns the open-ended response the corresponding country code. Due to imperfections, some (minimal) manual corrections are necessary. 
 
 ``` main_recode
 CSVS$Q13X <- replicate(nrow(CSVS), 0)
@@ -83,7 +95,7 @@ Table 1.
 |04| africa               | africa             | 2          | XX            | 200  |
 |05| Africa               | africa             | 2          | XX            | 200  |
 |06| Afrika               | africa             | 2          | XX            | 200  |
-|07| CZECHOSLOVAK SOCIALIST REPUBLIC	|czechoslovak socialist republic	|1	|45    |
+|07| CZECHOSLOVAK SOCIALIST REPUBLIC	|czechoslovak socialist republic	|1	|CZ |45    |
 
 
 ## Discussion
