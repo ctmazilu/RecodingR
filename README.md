@@ -84,3 +84,6 @@ for (i in 1:nrow(CSVS)) {
 result <- table(CSVS$Q13X)
 print(result)
 ```
+
+## Copyright
+RecodingR © 2024 by Christina Mazilu is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
