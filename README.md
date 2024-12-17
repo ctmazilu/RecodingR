@@ -12,7 +12,7 @@ CSVS Recoding Report
 ## Introduction
 
 This project aims to recode variables in the Cultural and Social Values
-survey. The variables which have been recoded are Q13r2oe, Q16 and Q16a.
+survey (to be published on [Non-relihion in a Complex Future](https://nonreligionproject.ca/). The variables which have been recoded are Q13r2oe, Q16 and Q16a.
 These variables are each open-ended questions with a select country as a
 response. For example, *“In what country were you born?”.*
 
