@@ -7,7 +7,7 @@ CSVS Recoding Report
 - [Data Description](#data-description)
 - [Packages](#packages)
 - [Method](#method)
-- [Result](#result)
+- [Results](#results)
 - [Discussion](#discussion)
   - [Dealing with numbers](#dealing-with-numbers)
   - [Dealing with multiple countries](#dealing-with-multiple-countries)
